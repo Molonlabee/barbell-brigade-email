@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <title>HTML EMAIL</title>
+    <style>
+        /* desktop */
+        @media only screen and (min-width: 960px){
+            .container{
+                /* width: 960px; */
+            }
+            .shop-table .left-column{
+              /* padding: 20px 50px !important; */
+            }
+            .shop-table .middle-column{
+                /* padding: 20px 50px !important;  */
+            }
+            .shop-table .right-column{
+              /* padding: 20px 50px !important; */
+            }
+        }
+        /* midsize */
+        @media only screen and (max-width: 960px){
+            .container{
+                width: 600px;
+                height: 100%;
+            }
+            .footer-table{
+                height: 100%;
+            }
+        }
+        /* mobile */
+        @media only screen and (max-width: 600px){
+            .container{
+                width: 100%;
+            }
+            .shop-table .left-column{
+                width: 100%;
+              padding: 20px 50px !important;
+            }
+            .shop-table .left-column tr td{
+                height: 50px;
+            }
+            .shop-table .middle-column{
+                width: 100%;
+            }
+            .shop-table .right-column{
+                width: 100%;
+              padding: 20px 50px !important;
+            }
+            .shop-table .right-column tr td{
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body style="background: black;">
+    <!-- START OF HTML EMAIL -->
+    <table width='100%' border='0' cellspacing='0' cellpadding='0'>
+        <tr>
+            <td>
+                <!-- START OF CONTAINER -->
+                <table class='container' width='600px' border="0" align="center" cellspacing='0' cellpadding='0' style="background: #f4f6fc;">
+                    <!-- start of HEADER row -->
+                    <tr width='50%' align="center">
+                        <td align="center">
+                            <img width="100%" src="assets/equpment.jpg">
+                        </td>
+                    </tr>
+                    <!-- end of HEADER row-->
+
+                    <!-- start of sale row -->
+                    <tr>
+                        <td>
+                           <table class="shop-table" width="100%" align="left" cellspacing='0' cellpadding='0' border='0' style='background: #f4f6fc;'>
+                                <tr>
+                                   <td>
+                                    <!-- start of column -->
+                                    <table class="left-column" width="33.33%" align="left" cellspacing='0' cellpadding='0' border='0' style='padding: 20px 0;'>
+                                        <tr>
+                                            <td align="center" height="250px">
+                                                <h5 style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 50px; margin: 0;">30% <br>OFF</h5>
+                                            </td>
+                                        </tr>
+                                    </table>  
+                                    <!-- end of colum -->
+                                    <!-- start of column -->
+                                    <table class="middle-column" width="33.33%" align="left" cellspacing='0' cellpadding='0' border='0'>
+                                        <tr">
+                                            <td align="center">
+                                                <img width="200px" src="/assets/logo-2.jpg"  />
+                                            </td>
+                                        </tr>
+                                    </table>  
+                                    <!-- end of colum -->
+                                    <!-- start of column -->
+                                    <table class="right-column" width="33.33%" align="left" cellspacing='0' cellpadding='0' border='0' style='padding: 20px 0;'>                                        
+                                        <td align="center" height="250px">
+                                            <h5 style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #333333; padding: 15px 0 5px; font-weight: 600; font-size: 30px; margin: 0;">Don't miss <br>our spring sale</h5>
+                                        </td>
+                                    </table>  
+                                    <!-- end of colum -->
+                                   </td> 
+                                </tr>
+                           </table> 
+                        </td>
+                    </tr>
+                    <!-- end of sale row -->
+
+                    <!-- start of shop row -->
+                    <tr>
+                        <td>
+                           <table class="shop-table" width="100%" align="left" cellspacing='0' cellpadding='0' border='0' style='padding: 5px 0 75px; background: #f4f6fc;'>
+                                <tr>
+                                   <td>
+                                    <!-- start of column -->
+                                    <table class="left-column" width="33.33%" align="left" cellspacing='0' cellpadding='0' border='0' style='padding: 20px 0;'>
+                                        <tr>
+                                            <td align="center">
+                                                <img width='200px' src="/assets/kneeSleeves.jpg" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <h5 style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">Knee Sleeves</h5>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <p style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #7f8887; font-weight: 400;
+                                                line-height: 1.8; font-size: 14px; margin: 0; padding: 0 0 15px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <a href="#" style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #2792ec; text-decoration:
+                                                none; font-weight: 600; font-size: 14px;">Learn More</a>
+                                            </td>
+                                        </tr>
+                                    </table>  
+                                    <!-- end of colum -->
+                                    <!-- start of column -->
+                                    <table class="middle-column" width="33.33%" align="left" cellspacing='0' cellpadding='0' border='0' style='padding: 20px 0;'>
+                                        <tr>
+                                            <td align="center">
+                                                <img width='200px' src="/assets/wristWraps.jpg" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <h5 style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">Wrist Wraps</h5>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <p style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #7f8887; font-weight: 400;
+                                                line-height: 1.8; font-size: 14px; margin: 0; padding: 0 0 15px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <a href="#" style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #2792ec; text-decoration:
+                                                none; font-weight: 600; font-size: 14px;">Learn More</a>
+                                            </td>
+                                        </tr>
+                                    </table>  
+                                    <!-- end of colum -->
+                                    <!-- start of column -->
+                                    <table class="right-column" width="33.33%" align="left" cellspacing='0' cellpadding='0' border='0' style='padding: 20px 0;'>
+                                        <tr>
+                                            <td align="center">
+                                                <img width='200px' src="/assets/duffleBag.jpg" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <h5 style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #333333; padding: 15px 0 5px; font-weight: 600; text-transform: uppercase; font-size: 14px; margin: 0;">Duffle Bag</h5>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <p style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #7f8887; font-weight: 400;
+                                                line-height: 1.8; font-size: 14px; margin: 0; padding: 0 0 15px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <a href="#" style="font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #2792ec; text-decoration:
+                                                none; font-weight: 600; font-size: 14px;">Learn More</a>
+                                            </td>
+                                        </tr>
+                                    </table>  
+                                    <!-- end of colum -->
+                                   </td> 
+                                </tr>
+                           </table> 
+                        </td>
+                    </tr>
+                    <!-- end of shop row -->
+
+                    <!-- start of banner row -->
+                    <tr width='50%' align="center" style="background: #1b1b1b;">
+                        <td align="center">
+                            <img width="100%" src="assets/gloves-2.jpg">
+                        </td>
+                    </tr>
+                    <!-- end of banner row -->
+
+                    <!-- start of FOOTER row -->
+                    <tr class="footer" height="100%">
+                        <td> 
+                            <table class='footer-table' width='100%' border="0" align="left" cellspacing='0' cellpadding='0' style="background: #1b1b1b;">
+                                <tr> 
+                                    <td align="center" style="padding: 20px;">
+                                        <p style="font-weight: 300; color: #b4b4b4; text-transform: capitalize; font-size: 12px; text-align: justify;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ratione cumque veritatis atque similique ipsam repellendus laudantium non pariatur, laborum accusantium? Nisi modi explicabo enim hic tempora! Facilis tenetur fuga ipsam atque quam cumque, doloremque repellendus autem voluptas, neque quaerat soluta! Sapiente facere delectus labore nihil! Optio cupiditate esse sequi?
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ratione cumque veritatis atque similique ipsam repellendus laudantium non pariatur, laborum accusantium? Nisi modi explicabo enim hic tempora! Facilis tenetur fuga ipsam atque quam cumque, doloremque repellendus autem voluptas, neque quaerat soluta! Sapiente facere delectus labore nihil! Optio cupiditate esse sequi?
+                                        </p>                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class='icon-table' width='250px' border="0" align="center" cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td align="center"><a href="http://www.twitter.com"><img src="/assets/icon-facebook.svg"/></a></td>
+                                                <td align="center"><a href="http://www.instagram.com"><img src="/assets/icon-instagram.svg"/></a></td>
+                                                <td align="center"><a href="http://www.youtube.com"><img src="/assets/icon-twitter.svg"/></a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                       <p style="padding: 20px 0; font-family: 'Open Sans', 'sans-serif', 'Arial', 'Helvetica', 'sans-serif'; color: #b4b4b4; font-weight: 400;
+                                       line-height: 1.8; font-size: 10px;">Ⓒ 20XX All rights Reserved - Your company. Is your inbox overflowing?
+                                           <a href="#" style="color: #2792ec;">Unsubscribe</a>
+                                       </p> 
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- end of FOOTER row -->
+
+                </table>
+                <!-- END OF CONTAINER -->
+            </td>
+        </tr>
+    </table>
+    <!-- END OF HTML EMAIL -->
+</body>
+</html>
